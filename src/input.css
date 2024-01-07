@@ -14,14 +14,15 @@
       rgba(149, 179, 233, 1) 80%
     );
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    /* color: hsl(hue, saturation, lightness); */
   }
 
   .opacity-animate {
     animation: opacity 3s;
     animation-fill-mode: forwards;
     -webkit-animation: opacity 3s;
-}
+  }
   @keyframes opacity {
     0% {
       opacity: 0;
@@ -30,7 +31,7 @@
       -moz-transform: translateY(5rem);
       -ms-transform: translateY(5rem);
       -o-transform: translateY(5rem);
-}
+    }
     100% {
       transform: translateY(0rem);
       -webkit-transform: translateY(0rem);
@@ -38,6 +39,6 @@
       -ms-transform: translateY(0rem);
       -o-transform: translateY(0rem);
       opacity: 100%;
-}
+    }
   }
 }
