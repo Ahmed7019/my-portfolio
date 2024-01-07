@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,600&display=swap");
+
+@layer {
+  .bg-gradient {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(63, 63, 242, 1) 53%,
+      rgba(149, 179, 233, 1) 80%
+    );
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .opacity-animate {
+    animation: opacity 3s;
+    animation-fill-mode: forwards;
+    -webkit-animation: opacity 3s;
+}
+  @keyframes opacity {
+    0% {
+      opacity: 0;
+      transform: translateY(5rem);
+      -webkit-transform: translateY(5rem);
+      -moz-transform: translateY(5rem);
+      -ms-transform: translateY(5rem);
+      -o-transform: translateY(5rem);
+}
+    100% {
+      transform: translateY(0rem);
+      -webkit-transform: translateY(0rem);
+      -moz-transform: translateY(0rem);
+      -ms-transform: translateY(0rem);
+      -o-transform: translateY(0rem);
+      opacity: 100%;
+}
+  }
+}
