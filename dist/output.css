@@ -649,6 +649,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -746,7 +751,7 @@ video {
 
   :root {
     --primary: #180ef1;
-    --primary-light: rgb(113, 106, 241);
+    --primary-light: rgb(202, 200, 245);
     --yell: #f2ff00;
   }
 
