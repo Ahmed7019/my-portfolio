@@ -735,6 +735,15 @@ video {
 }
 
 @layer {
+  ::-moz-selection {
+    background-color: var(--yell);
+    color: #180ef1;
+  }
+  ::selection {
+    background-color: var(--yell);
+    color: #180ef1;
+  }
+
   :root {
     --primary: #180ef1;
     --primary-light: rgb(113, 106, 241);

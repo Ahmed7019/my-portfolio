@@ -5,6 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,600&display=swap");
 
 @layer {
+  ::selection {
+    background-color: var(--yell);
+    color: #180ef1;
+  }
   :root {
     --primary: #180ef1;
     --primary-light: rgb(113, 106, 241);
