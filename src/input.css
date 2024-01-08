@@ -7,15 +7,25 @@
 @layer {
   :root {
     --primary: #180ef1;
-    --yell: #e7f10e;
+    --primary-light: rgb(113, 106, 241);
+    --yell: #f2ff00;
   }
 
   .primary {
     color: var(--primary);
   }
+  .primary-light {
+    color: var(--primary-light);
+  }
+  .primary-bg {
+    background-color: var(--primary);
+  }
 
-  .yell {
-    columns: var(--yell);
+  .accent {
+    color: var(--yell);
+  }
+  .yell-bg {
+    background-color: var(--yell);
   }
   .bg-gradient {
     background: rgb(2, 0, 36);

@@ -709,11 +709,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-slate-700 {
-  --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -742,16 +737,28 @@ video {
 @layer {
   :root {
     --primary: #180ef1;
-    --yell: #e7f10e;
+    --primary-light: rgb(113, 106, 241);
+    --yell: #f2ff00;
   }
 
   .primary {
     color: var(--primary);
   }
 
-  .yell {
-    -moz-columns: var(--yell);
-         columns: var(--yell);
+  .primary-light {
+    color: var(--primary-light);
+  }
+
+  .primary-bg {
+    background-color: var(--primary);
+  }
+
+  .accent {
+    color: var(--yell);
+  }
+
+  .yell-bg {
+    background-color: var(--yell);
   }
 
   .bg-gradient {
