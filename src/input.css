@@ -5,6 +5,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,600&display=swap");
 
 @layer {
+  :root {
+    --primary: #180ef1;
+    --yell: #e7f10e;
+  }
+
+  .primary {
+    color: var(--primary);
+  }
+
+  .yell {
+    columns: var(--yell);
+  }
   .bg-gradient {
     background: rgb(2, 0, 36);
     background: radial-gradient(
