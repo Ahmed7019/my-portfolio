@@ -12,8 +12,8 @@
   :root {
     --primary: hsl(246, 70%, 26%);
     --primary-light: rgb(202, 200, 245);
-    --yell: hsl(63, 92%, 26%);
-    --yell-pr: hsl(63, 99%, 45%);
+    --yell-pr: hsl(63, 92%, 26%);
+    --yell: hsl(63, 99%, 45%);
   }
 
   .primary {
