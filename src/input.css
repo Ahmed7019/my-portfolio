@@ -5,16 +5,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,600&display=swap");
 
 @layer {
-  body {
-    scroll-behavior: smooth;
-  }
   ::selection {
-    background-color: var(--yell);
-    color: #180ef1;
+    background-color: whitesmoke;
+    color: black;
   }
   :root {
     --primary: hsl(246, 70%, 26%);
-    --primary-light: rgb(202, 200, 245);
     --yell-pr: hsl(63, 92%, 26%);
     --yell: hsl(63, 99%, 45%);
   }
@@ -22,9 +18,7 @@
   .primary {
     color: var(--primary);
   }
-  .primary-light {
-    color: var(--primary-light);
-  }
+
   .primary-bg {
     background-color: var(--primary);
   }
