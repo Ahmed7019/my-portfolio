@@ -661,6 +661,38 @@ video {
   background-color: rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
+.bg-neutral-400\/60 {
+  background-color: rgb(163 163 163 / 0.6);
+}
+
+.bg-neutral-100\/60 {
+  background-color: rgb(245 245 245 / 0.6);
+}
+
+.bg-neutral-800\/60 {
+  background-color: rgb(38 38 38 / 0.6);
+}
+
+.bg-neutral-900\/60 {
+  background-color: rgb(23 23 23 / 0.6);
+}
+
+.bg-neutral-950\/60 {
+  background-color: rgb(10 10 10 / 0.6);
+}
+
+.bg-neutral-900\/50 {
+  background-color: rgb(23 23 23 / 0.5);
+}
+
+.bg-neutral-800\/50 {
+  background-color: rgb(38 38 38 / 0.5);
+}
+
+.bg-neutral-700\/50 {
+  background-color: rgb(64 64 64 / 0.5);
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -712,6 +744,18 @@ video {
 
 .font-play-fair {
   font-family: Playfair Display, serif;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl {
@@ -863,4 +907,8 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
