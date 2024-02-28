@@ -9,40 +9,8 @@
     background-color: whitesmoke;
     color: black;
   }
-  :root {
-    --primary: hsl(246, 70%, 26%);
-    --yell-pr: hsl(63, 92%, 26%);
-    --yell: hsl(63, 99%, 45%);
-  }
 
-  .primary {
-    color: var(--primary);
-  }
-
-  .primary-bg {
-    background-color: var(--primary);
-  }
-
-  .accent {
-    color: var(--yell);
-  }
-  .yell-bg {
-    background-color: var(--yell);
-  }
-  .bg-gradient {
-    background: rgb(2, 0, 36);
-    background: radial-gradient(
-      circle,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(63, 63, 242, 1) 53%,
-      rgba(149, 179, 233, 1) 80%
-    );
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* color: hsl(hue, saturation, lightness); */
-  }
-
-  .opacity-animate {
+    .opacity-animate {
     animation: opacity 3s;
     animation-fill-mode: forwards;
     -webkit-animation: opacity 3s;
