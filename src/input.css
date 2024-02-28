@@ -10,7 +10,7 @@
     color: black;
   }
 
-    .opacity-animate {
+  .opacity-animate {
     animation: opacity 3s;
     animation-fill-mode: forwards;
     -webkit-animation: opacity 3s;
