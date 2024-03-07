@@ -2,6 +2,7 @@
 
 let menuBtn = document.getElementById("menu-btn"),
   closeBtn = document.getElementById("close-btn"),
+  links = document.getElementById("nav-links"),
   menu = document.getElementById("menu");
 
 menuBtn.addEventListener("click", () => {
@@ -11,6 +12,12 @@ menuBtn.addEventListener("click", () => {
 });
 
 closeBtn.addEventListener("click", () => {
+  menuBtn.style.setProperty("display", "block");
+  menu.style.setProperty("display", "none");
+  closeBtn.style.setProperty("display", "none");
+});
+
+links.addEventListener("click", () => {
   menuBtn.style.setProperty("display", "block");
   menu.style.setProperty("display", "none");
   closeBtn.style.setProperty("display", "none");
