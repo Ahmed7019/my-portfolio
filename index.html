@@ -12,21 +12,27 @@
 
 <body class="bg-neutral-800 ">
     <header class="px-10 pt-10">
-        <nav class="flex justify-between items-center text-center text-white font-play-fair">
+        <nav class="flex justify-between items-center text-center text-white font-play-fair relative">
             <a href="index.html" class="text-xl font-bold cursor-pointer"><span
                     class="hover:text-neutral-100 hover:bg-neutral-600 hover:rounded transition-all">Ahmed</span><span
                     class="text-black bg-white rounded-sm transition-all hover:bg-inherit hover:text-white">Designs</span></a>
-            <button class=" p-1" id="menu-btn sm:hidden">
+            <button id="menu-btn sm:hidden">
                 <img src="images/menu.svg" alt="menu bar" class=" w-12">
             </button>
-            <button class=" p-1 hidden" id="close-btn">
+            <button class="  hidden" id="close-btn">
                 <img src="images/cross-small-svgrepo-com.svg" alt="menu bar" class=" w-12">
             </button>
-            <div class="sm:flex items-center text-center font-play-fair hidden">
-                <a href="#services" class="px-2 hover:scale-105 transition-scale ">Services</a>
-                <a href="#projects" class="px-2 hover:scale-105 transition-scale ">Projects</a>
-
-            </div>
+            <ul class="sm:flex items-center text-center font-play-fair hidden top-14 w-full z-10 bg-black" id="menu">
+                <li class="relative p-4 bg-neutral-600/50 hover:bg-black hover:transition-all duration-150">
+                    <a href="#services" class="p-4 hover:scale-105 transition-scale ">Services</a>
+                </li>
+                <li class="relative p-4 bg-neutral-600/50 hover:bg-black hover:transition-all duration-150">
+                    <a href="#projects" class="p-4 hover:scale-105 transition-scale ">Projects</a>
+                </li>
+                <li class="relative p-4 bg-neutral-600/50 hover:bg-black hover:transition-all duration-150">
+                    <a href="#contact" class="p-4 hover:scale-105 transition-scale ">Contact me</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main class="p-10 overflow-hidden">
@@ -164,6 +170,8 @@
         </section>
 
     </main>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
