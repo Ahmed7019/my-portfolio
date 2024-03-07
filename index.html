@@ -12,11 +12,17 @@
 
 <body class="bg-neutral-800 ">
     <header class="px-10 pt-10">
-        <nav class="flex justify-between text-center text-white font-play-fair">
+        <nav class="flex justify-between items-center text-center text-white font-play-fair">
             <a href="index.html" class="text-xl font-bold cursor-pointer"><span
                     class="hover:text-neutral-100 hover:bg-neutral-600 hover:rounded transition-all">Ahmed</span><span
                     class="text-black bg-white rounded-sm transition-all hover:bg-inherit hover:text-white">Designs</span></a>
-            <div class="flex items-center text-center font-play-fair">
+            <button class=" p-1" id="menu-btn sm:hidden">
+                <img src="images/menu.svg" alt="menu bar" class=" w-12">
+            </button>
+            <button class=" p-1 hidden" id="close-btn">
+                <img src="images/cross-small-svgrepo-com.svg" alt="menu bar" class=" w-12">
+            </button>
+            <div class="sm:flex items-center text-center font-play-fair hidden">
                 <a href="#services" class="px-2 hover:scale-105 transition-scale ">Services</a>
                 <a href="#projects" class="px-2 hover:scale-105 transition-scale ">Projects</a>
 
