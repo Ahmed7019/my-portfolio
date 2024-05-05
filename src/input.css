@@ -4,6 +4,24 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,600&display=swap");
 
+@layer utilities {
+  /* Act as a border */
+  .card-wrapper {
+    @apply relative bg-gradient-to-b from-slate-700 to-slate-800 rounded-2xl;
+  }
+
+  /* Gradient */
+  .card-wrapper::before {
+    background: conic-gradient(
+      rgba(244, 114, 182, 0.5) 0deg,
+      rgba(192, 132, 252, 0.5) 0deg,
+      transparent 80deg
+    );
+
+    @apply h-[100%] w-[100%] content-[''] absolute;
+  }
+}
+
 @layer {
   ::selection {
     background-color: whitesmoke;
