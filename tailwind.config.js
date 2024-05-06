@@ -1,17 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html", "./dist/*.html"],
+  content: ["index.html", "src/input.css", "./dist/*.html"],
   theme: {
     extend: {
       keyframes: {
-        "border-spin": {
+        "border-Spin": {
           "100%": {
-            transofrm: "rotate(-360deg)",
+            transform: "rotate(-360deg)",
           },
         },
       },
       animation: {
-        "border-spin": "border-spin 7s linear infinite",
+        "border-spin": "border-Spin 7s linear infinite",
       },
       fontFamily: {
         "play-fair": ["Playfair Display", "serif"],
