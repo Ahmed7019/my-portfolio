@@ -36,7 +36,7 @@ contactForm.addEventListener("submit", (e) => {
 });
 
 // Loader while loading page
+let loader = document.querySelector("#loader-wrapper");
 window.addEventListener("load", () => {
-let loader = document.querySelector(".loader");
   loader.classList.add("hidden");
 });
