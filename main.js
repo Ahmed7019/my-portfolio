@@ -34,3 +34,9 @@ let contactForm = document.querySelector("#contact-form"),
 contactForm.addEventListener("submit", (e) => {
   e.preventDefault();
 });
+
+// Loader while loading page
+window.addEventListener("load", () => {
+let loader = document.querySelector(".loader");
+  loader.classList.add("hidden");
+});
