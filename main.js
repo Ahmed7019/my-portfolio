@@ -28,15 +28,12 @@ links.addEventListener("click", () => {
   ######################################################
 */
 
-let contactForm = document.querySelector("#contact-form"),
-  submitButton = document.querySelector("#submit-btn");
 
-contactForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-});
 
 // Loader while loading page
 let loader = document.querySelector("#loader-wrapper");
-window.addEventListener("load", () => {
+loader.classList.add("hidden");
+console.log(loader);
+window.addEventListener("loadstart", () => {
   loader.classList.add("hidden");
 });
