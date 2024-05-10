@@ -13,8 +13,8 @@
   /* Gradient */
   .card-wrapper::before {
     background: conic-gradient(
-      rgba(244, 114, 182, 0.6) 0deg,
-      rgba(192, 132, 252, 0.6) 0deg,
+      rgba(244, 114, 182, 0.8) 0deg,
+      rgba(192, 132, 252, 0.8) 0deg,
       transparent 90deg
     );
 
