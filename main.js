@@ -28,12 +28,10 @@ links.addEventListener("click", () => {
   ######################################################
 */
 
-
-
 // Loader while loading page
 let loader = document.querySelector("#loader-wrapper");
-loader.classList.add("hidden");
-console.log(loader);
-window.addEventListener("loadstart", () => {
-  loader.classList.add("hidden");
+let main = document.querySelector("main");
+window.addEventListener("load", () => {
+  main.classList.remove("hidden");
+  loader.classList.add("disappear");
 });

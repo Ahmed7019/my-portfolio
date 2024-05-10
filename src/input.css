@@ -197,4 +197,17 @@
   .loader-square:nth-of-type(7) {
     animation-delay: -10s;
   }
+
+  /* let the loader vanish */
+  .disappear {
+    animation: vanish 5s forwards;
+    -webkit-animation: vanish 5s forwards;
+}
+
+@keyframes vanish{
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 }
