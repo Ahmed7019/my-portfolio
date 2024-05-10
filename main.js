@@ -22,3 +22,15 @@ links.addEventListener("click", () => {
   menu.style.setProperty("display", "none");
   closeBtn.style.setProperty("display", "none");
 });
+
+/* ######################################################
+  For Contact me page
+  ######################################################
+*/
+
+let contactForm = document.querySelector("#contact-form"),
+  submitButton = document.querySelector("#submit-btn");
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
